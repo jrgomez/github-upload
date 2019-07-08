@@ -2,14 +2,15 @@
 
 ## Github upload walk-through
 
-### Using Command Line (cli)
-1. In your command line, navigate to your project directory. Type git init to initialize the directory as a Git repository.
-2. Type git remote add origin https://github.com/jrgomez/github-upload.git
-3. Type git add .
-4. Type git commit -m "initializing repository"
-5. Type git push -u origin master to push the files you have locally to the remote on GitHub. (You may be asked to log in.)
+### Using Command Line (cli) {h3}
+1. In your command line, navigate to your project directory. Type `git init` to initialize the directory as a Git repository.
+2. Type `git remote add origin https://github.com/jrgomez/github-upload.git`
+3. Type `git add .`
+4. Type `git commit -m "initializing repository"`
+5. Type `git push -u origin master` to push the files you have locally to the remote on GitHub. (You may be asked to log in.)
 
-#### Using Atom
+
+#### Using Atom {h4}
 1. In Atom, open the folder for your project
 2. At the top of your screen, click Packages. Select GitHub, and then toggle the Git Tab from the drop-down menu.
 3. Select Create Repository within the Git tab on the right-hand size of your screen.
@@ -22,7 +23,7 @@
 8. Select Commit
 9. Close Atom
 10. In your command line, navigate to your project directory.
-11. Type git remote add origin https://github.com/jrgomez/github-upload
+11. Type `git remote add origin https://github.com/jrgomez/github-upload`
 12. Return to Atom, and select the Up/Down arrow icon at the bottom of your Git Tab
 13. Click Push, above the noted dialog.
 14. Return to your repository, and note a successful push by finding your files on GitHub's code tab.
